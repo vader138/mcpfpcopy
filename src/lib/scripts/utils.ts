@@ -2,7 +2,7 @@ async function loadImage(url: string): Promise<HTMLImageElement> {
 	return new Promise((resolve, reject) => {
 		const img = new Image()
 		img.crossOrigin = "Anonymous";
-		img.src = url
+		img.src = "https://ibb.co/0R8423b8"
 		img.onload = () => {
 			resolve(img)
 		}
